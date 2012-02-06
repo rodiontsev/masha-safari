@@ -1,0 +1,69 @@
+.user_selection_true {
+    background-color: #c4f47d;
+    padding: 2px 0;
+}
+
+.user_selection_true .closewrap {
+    position: relative;
+}
+
+.user_selection_true a.txtsel_close {
+    display: none;
+}
+
+.user_selection_true.hover a.txtsel_close, #txtselect_marker.show {
+    position: absolute;
+    
+    display: block;
+    
+    width: 14px;
+    height: 14px;
+}
+
+.user_selection_true.hover a.txtsel_close:hover, #txtselect_marker.show:hover {
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+}
+
+.user_selection_true.hover a.txtsel_close {
+    top: 0;
+    left: 0;
+    
+    background-color: #fafafa;    
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-repeat: no-repeat;
+
+    border: 1px solid #ccc !important;
+    border-bottom-color: #bbb !important;
+    border-radius: 2px;
+}
+
+.user_selection_true.hover a.txtsel_close:hover {
+    background-color: #e6e6e6;
+}
+
+#txtselect_marker {
+    display: none;
+    z-index: 9999;
+}
+
+#txtselect_marker:hover {
+
+}
+
+#txtselect_marker.show {    
+    background-color: #5bb75b;
+    background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+    background-image: linear-gradient(top, #62c462, #51a351);
+    background-repeat: repeat-x;
+
+    border: 1px solid #51a351 !important;
+    border-bottom-color: #387038 !important;
+    border-radius: 2px;    
+}
+
+#txtselect_marker.show:hover {
+    background-color: #408140 \9;
+}

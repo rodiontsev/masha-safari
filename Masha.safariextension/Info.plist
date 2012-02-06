@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Dmitry Rodiontsev</string>
+	<key>Builder Version</key>
+	<string>6534.52.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>Masha</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.rodiontsev.masha</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>masha-29.09.2011-12.18.53.js</string>
+				<string>content.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>content.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Mark and share text</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
